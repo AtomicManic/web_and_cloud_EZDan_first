@@ -101,11 +101,11 @@ a{
 }
 
 #tal-pic a{
-    background-image: url("/images/Tal\ ezdan-modified.png");
+    background-image: url("../images/Tal\ ezdan-modified.png");
 }
 
 #noa-pic a{
-    background-image: url("/images/Noa_ezdan-modified_1.png");
+    background-image: url("../images/Noa_ezdan-modified_1.png");
 }
 
 #alona-pic{
@@ -115,7 +115,7 @@ a{
 }
 
 #alona-pic a{
-    background-image: url("/images/Alona-modified.png");
+    background-image: url("../images/Alona-modified.png");
     display: flex;
     background-position: right;
 }
@@ -341,7 +341,7 @@ a{
 }
 
 .navbar > a{
-    background-image: url(/images/EZDan-logo.png);
+    background-image: url("../images/EZDan-logo.png");
     height: 39px;
     width: 59px;
 }
@@ -435,7 +435,7 @@ a{
 }
 
 .middle-header a{
-    background-image: url("/images/Noa_ezdan-modified_1.png");
+    background-image: url("../images/Noa_ezdan-modified_1.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 39px;
