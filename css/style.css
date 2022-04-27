@@ -1,0 +1,1065 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    display: block;
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #5bc0de;
+}
+
+header > a{
+    width: 40px;
+    height: 40px;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.noas-page main,
+.noas-destinations main{
+    padding-top: 20px;
+}
+
+/* Home Page */
+
+.home-page header{
+    margin-bottom: 10px;
+}
+
+.home-page .bottom-header li{
+    box-shadow: 0px;
+}
+
+.home-page h1, .home-page h2{
+    margin-left: 42px;
+}
+
+.home-page h1{
+    height: 36px;
+    margin-top: 10px;
+}
+
+.home-page h2{
+    margin-bottom: 17px;
+}
+
+.home-page h3{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.home-page main li{
+    padding-bottom: 10px;
+    padding-top: 7px;
+    box-shadow: 10px 2px 10px -2px rgba(0,0,0,0.38);
+}
+
+.home-page ul{
+    padding: 0;
+}
+
+.my-users,
+.frequent-dest,
+.recent-line, .lines > section{
+    background-color: white;
+}
+
+#noa-pic a, #tal-pic a, #alona-pic a{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 39px;
+    align-self: center;
+}
+
+#tal-pic a{
+    background-image: url("/images/Tal\ ezdan-modified.png");
+}
+
+#noa-pic a{
+    background-image: url("/images/Noa_ezdan-modified_1.png");
+}
+
+#alona-pic{
+    display: flex;
+    justify-content: right;
+    height: inherit;
+}
+
+#alona-pic a{
+    background-image: url("/images/Alona-modified.png");
+    display: flex;
+    background-position: right;
+}
+
+.my-users ul{
+    margin: 0;
+    
+}
+
+.my-users li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.my-users li:last-of-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    align-items: center;
+}
+
+.my-users li img{
+    align-self: center;
+}
+
+#add-user-btn{
+    width: 92px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #46b8da;
+    text-align: center;
+    color: white;
+    padding: 0;
+    font-weight: 700;
+}
+
+.frequent-dest{
+    height: 100px;
+}
+
+.frequent-dest ul{
+    margin: 0;
+    height: inherit;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: inherit;
+    padding-top: 15px;
+}
+
+.frequent-dest li i{
+    font-size: 24px;
+}
+
+.frequent-dest li span{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.frequent-dest li p{
+    height: 40px;
+}
+
+
+.recent-line, .lines{
+    height: 100px;
+    /* background-color: white; */
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.recent-line article, .lines article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 10px;
+    
+}
+
+.recent-line article select, .lines article select{
+    width: 85px;
+    align-self: center;
+}
+
+.location:last-of-type, .user:last-of-type{
+    box-shadow: 0px 0px 0px 0px ;
+}
+
+.recent-line article:nth-of-type(2), .lines article:nth-of-type(2){
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.location-name{
+    width: 80px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.location-address,
+.location-city{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    /* justify-self: left; */
+    text-indent: 2px;
+}
+
+.location-address{
+    margin-top: 10px;
+}
+
+.location-address:nth-of-type(1){
+    margin-top: 3px;
+}
+
+.station-address{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.ride-duration span{
+    font-weight: 700;
+}
+
+.real-time span{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #62c462;
+}
+
+.line-number{
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.walking-distance{
+    margin-top: 2px;
+}
+
+.walking-distance span{
+    font-weight: 700;
+}
+
+.station-icon{
+    font-size: 17px;
+}
+
+.user-list{
+    margin-top: 3px;
+}
+
+.ride-grade{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bus-icon,
+.clock-icon,
+.walking-icon,
+.walking-icon,
+.station-icon{
+    margin-right: 7px;
+}
+
+
+/* Navbar */
+
+.navbar{
+    justify-content:flex-start;
+    padding: 10px;
+    padding-top: 0;
+    height: 50px;
+    margin-bottom: 0;
+    min-height: 50px;
+}
+
+.navbar-brand{
+    margin-right: 16px;
+}
+
+
+.navbar ul{
+    flex-wrap: nowrap;
+    height: inherit;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navbar-nav>li>a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navbar li{
+    box-shadow: 0 0 0 0;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.navbar > a{
+    background-image: url(/images/EZDan-logo.png);
+    height: 39px;
+    width: 59px;
+}
+
+.navbar li a{
+    color: white;
+    height: inherit;
+}
+
+.navbar li a:hover{
+    text-decoration: none;
+}
+
+.navbar-collapse{
+    height: inherit;
+}
+
+.navbar-collapse.collapse{
+    height: inherit!important;
+}
+
+.navbar li span{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    font-size: 20px;
+}
+
+@media (max-width: 992px) { 
+    #navbarSupportedContent ul{
+        display: none;
+    }
+ }
+
+/* ************************************************************************************************* */
+/* ************************************* NOA'S PAGE ************************************************ */
+/* ************************************************************************************************* */
+
+
+.noas-page header, .frm-page header, .noas-destinations header{
+    height: 172px;
+}
+
+.top-header{
+    height: 50px;
+    background-color: #5bc0de;
+}
+
+.middle-header, .bottom-header{
+    /* height: 61px; */
+    background-color: white;
+    margin: 0;
+    align-content: flex-end;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.middle-header{
+    height: 70px;
+}
+
+.bottom-header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-header a:hover{
+    background-color: #5bc0de;
+    text-decoration: none!important;
+}
+
+.bottom-header a:hover i{
+    color: white;
+}
+
+.bottom-header a:hover h6{
+    color: white;
+}
+
+.bottom-header a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.middle-header a{
+    background-image: url("/images/Noa_ezdan-modified_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 39px;
+}
+
+.middle-header h5{
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.bottom-header h6{
+    font-family: 'Roboto', sans-serif;
+    line-height: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #5bc0de;
+    margin-bottom: 3px;
+    /* text-align: center; */
+}
+
+.bottom-header a{
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+.bottom-header i{
+    width: 24px;
+    height: 24px;
+    color: #5bc0de;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.noas-page main h5, .noas-destinations main h5, .choose-line main h5, .curr-route h5 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: bold; 
+    margin-left: 11px;
+    margin-top: 16px;
+}
+
+.noas-page main section{
+    height: 90px;
+    background-color: #c0c0c0;
+    margin-bottom: 25px;
+}
+
+.noas-page .send-ride{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.ride-history article:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.ride-history article:nth-last-of-type(2) p{
+    align-self: center;
+}
+
+.ride-history > article{
+    display: flex;
+    flex-direction: column;
+}
+
+.ride-history p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    /* line-height: 12px; */
+    font-size: 9px;
+    /* height: 12px; */
+    width: 74px;
+    padding-left: 0px;
+}
+
+.ride-history .line-number{
+    height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 30px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.ride-history .station{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.ride-history .ride-time-txt h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    width: 64px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.ride-history .ride-time-var h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    width: 50px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.send-ride .location{
+    padding-top: 0;
+}
+
+/* ************************************************************************************************* */
+/* ************************************Noas destinations******************************************** */
+/* ************************************************************************************************* */
+
+.selected{
+    background-color: #5bc0de;
+}
+.selected h6, .selected i{
+    color: white;
+}
+
+.noas-destinations .destinations .route{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.destinations h6, .route h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.route h6{
+    text-align: center;
+}
+
+.rout article:last-of-type:nth-child(2){
+    margin-top: 20px;
+}
+
+.route-home-icon{
+    margin-bottom: 12px;
+}
+
+.choose-line-btn{
+    background-color: #5cb85c;
+    color: white;
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 4px;
+    width: 100px;
+    border: none;
+}
+
+.edit-delete-section{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.edit-delete-section h6{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.edit-delete-row{
+    margin-top: 7px;
+}
+
+.edit-delete-section:first-of-type{
+    justify-content: flex-end;
+}
+
+#new-destination-btn{
+    border: none;
+    margin: auto;
+    /* width: 180px;
+    height: 30px; */
+}
+
+.edit-delete-section{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+/* ************************************************************************************************* */
+/* ************************************choose lines******************************************** */
+/* ************************************************************************************************* */
+
+
+/* edited the css of .recent-lines to include also .lines */
+/* added to - .noas-page main h5, .noas-destinations main h5, .choose-line main h5 */
+
+.curr-route{
+    background-color: #cccccc;
+}
+
+.change-route-btn{
+    border: none;
+    height: 25px;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+
+.lines > section{
+    margin-bottom: 25px;
+}
+
+.line-eta{
+    margin: 0px;
+    padding: 0px;
+}
+
+.line-eta{
+    color: #5cb85c;
+}
+
+.progress{
+    padding: 0;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.progress-bar{
+    background-color: #5bc0de;
+}
+
+.progress-bar-88{
+    width: 88%;
+}
+.progress-bar-57{
+    width: 57%;
+}
+.progress-bar-50{
+    width: 50%;
+}
+.lines a{
+    color: black;
+}
+
+.lines > a > section{
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+/* ************************************************************************************************* */
+/* ********************************* Form Page ***************************************************** */
+/* ************************************************************************************************* */
+
+.frm-page body{
+    height: 100%;
+}
+
+.frm-page h2{
+    height: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.frm-page main{
+    background-color: white;
+    padding-left: 23px;
+    padding-top: 15px;
+    padding-right: 13px;
+}
+
+.frm-page main > span{
+    display: block;
+    text-align: right;
+    font-size: 10px;
+}
+
+.frm-page form{
+    padding-bottom: 20px;
+}
+
+.form-check{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+.form-check label{
+    width: 61px;
+}
+
+.form-check-inline{
+    margin-bottom: 24px;
+    margin-top: 7px;
+}
+
+#form-check-input{
+    margin-bottom: 7px;
+}
+
+#address-inpt{
+    display: block;
+    width: 90%;
+}
+
+#location-name-inpt{
+    width: 80%;
+}
+
+#map-img{
+    width: 188px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+#save-dest-btn{
+    display: block;
+    width: 180px;
+    height: 30px;
+    /* line-height: 30px; */
+    background-color:#5bc0de;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+#map-img{
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    
+    margin: auto;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+#address-search-btn{
+    background-color: #5bc0de;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* ************************************************************************************************* */
+/* ********************************* main obj page ************************************************* */
+/* ************************************************************************************************* */
+
+
+.main-obj-page header{
+    flex-direction: column;
+}
+
+.main-obj-page main{
+    background-color: white;padding-top: 10px;
+}
+
+.main-obj-page h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 12px;
+}
+
+.main-obj-page h4{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.from-to{
+    height: 50px;
+    background-color: #cccccc;
+    font-size: 9px;
+    margin-bottom: 1px;
+}
+
+.from-to span{
+    font-weight: 700;
+    align-self: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.from-to p, .line-station p{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.line-station{
+    height: 40px;
+    background-color: #cccccc;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.line-station p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line-station span:last-of-type{
+    align-self: flex-end;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.line-station span{
+    align-self: center;
+}
+
+.line-station .change-route-btn{
+    display: flex;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+}
+
+.line-station:nth-child(3){
+    align-items: center;
+    text-align: center;
+}
+
+.ratings progress{
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    height: 10px;
+    border: black 1.5px solid;
+}
+
+.ratings .progress-bar{
+    border-radius: 15px, 15px, 15px, 15px;
+    background-color:#5bc0de ;
+    /* width: 75px; */
+    height: inherit;
+    width: 20%;
+}
+
+.ratings i{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+#line-num{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.change-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ride-total-score{
+    margin-top: 28px;
+    height: 157px;
+}
+
+.ride-total-score h3{
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+.ride-total-score .progress{
+    width: 187px;
+    height: 20px;
+    margin-bottom: 19px;
+}
+
+.ride-total-score .progress-bar{
+    width: 88%;
+    background-color:#5bc0de;
+}
+
+.ride-total-score p{
+    display: block;
+   text-align: start;
+   padding: 0;
+}
+
+#send-ride-btn{
+    display: block;
+    width: 166px;
+    height: 52px;
+    text-align: center;
+    background-color: #5bc0de;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-obj-page .curr-route{
+    justify-content: space-around;
+}
+
+#new-destination-btn{
+    background-color: #5bc0de;
+}
+
+#new-destination-btn a{
+    color: white;
+}
+
+/* ************************************************************************************************* */
+/* Modal */
+/* ************************************************************************************************* */
+
+
+.modal-dialog{
+    justify-content: center;
+}
+
+.modal-content{
+    width: 230px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.modal-header{
+    justify-content:center;
+    background-color: #5cb85c;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    justify-self: center;
+    margin-top: 15px;
+    
+}
+
+.modal-body{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.modal-body p{
+    margin-bottom: 5px;
+}
+
+.modal-body p:nth-of-type(2){
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.modal-body span{
+    text-align: center;
+}
+
+.modal-header h5{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.close{
+    align-self: right;
+}
+
+#modal-sucess-btn{
+    width: 90px;
+    height: 30px;
+    background-color:#5bc0de;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.modal-footer{
+    padding-top: 5px;
+}
+
+@media (min-width:600px){
+    main, #ride-details, .main-obj-page h2, .frm-page h2{
+       margin: auto;
+       width: 70%;
+    }
+}
+
+@media (min-width:600px){
+    .frm-page h2{
+       margin-top: 35px;
+       margin-bottom: 20px;
+    }
+}
+
+@media (min-width:748px){
+    main, #ride-details, .main-obj-page h2{
+       margin: auto;
+       width: 60%;
+    }
+}
